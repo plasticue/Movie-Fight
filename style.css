@@ -1,0 +1,79 @@
+:root{
+  background-color: #ecf0f3;
+}
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+  
+}
+.main-img {
+  
+  height: 300px;
+}
+.notification {
+  
+  border-radius: 20px;
+  margin-top: 20px !important;
+  box-shadow: 3px 3px 8px #b1b1b1,
+             -3px -3px 8px #ffffff;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+
+
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.label b{
+  margin-bottom: 10px;
+}
+.input,
+.input:focus {
+  
+  border: none;
+  height: 40px;
+  outline: none;
+  background: none;
+  border-radius: 20px;
+  box-shadow: 
+    inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff
+  ;
+}
